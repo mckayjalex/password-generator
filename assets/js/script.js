@@ -64,7 +64,6 @@ function generatePassword() {
         let randomChar = desiredCharacters.charAt(randomNumber);
         finalPassword = finalPassword + randomChar;
     }
-    console.log(finalPassword);
     return finalPassword;
 }
 
